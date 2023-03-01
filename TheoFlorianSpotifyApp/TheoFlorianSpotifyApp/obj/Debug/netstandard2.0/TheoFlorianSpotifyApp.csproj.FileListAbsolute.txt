@@ -1,0 +1,13 @@
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\bin\Debug\netstandard2.0\TheoFlorianSpotifyApp.deps.json
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\bin\Debug\netstandard2.0\TheoFlorianSpotifyApp.dll
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\bin\Debug\netstandard2.0\TheoFlorianSpotifyApp.pdb
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.csproj.AssemblyReference.cache
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.AssemblyInfoInputs.cache
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.AssemblyInfo.cs
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.csproj.CoreCompileInputs.cache
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.dll
+C:\Users\flori\RiderProjects\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\TheoFlorianSpotifyApp\obj\Debug\netstandard2.0\TheoFlorianSpotifyApp.pdb

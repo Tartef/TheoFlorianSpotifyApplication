@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9LmhguEeDAyD8m9DCapGxGaHA1U7JYyRuS5uzGvtin+rkTmk9Z0xMSllzAKT4pkPkx9R1JrV1T5JK+wE4Q06xA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\flori\\RiderProjects\\TheoFlorianSpotifyApp\\TheoFlorianSpotifyApp\\TheoFlorianSpotifyApp.iOS\\TheoFlorianSpotifyApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flori\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
