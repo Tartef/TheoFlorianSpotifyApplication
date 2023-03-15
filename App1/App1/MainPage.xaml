@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:pages="clr-namespace:App1.Pages"
+             x:Class="App1.MainPage">
+    <TabBar>
+        <Tab Title="Cats"
+            Icon="cat.png">
+            <ShellContent>
+                <pages:FirstPage></pages:FirstPage>
+            </ShellContent>
+        </Tab>
+        <Tab Title="Dogs"
+            Icon="dog.png">
+            <ShellContent>
+                <pages:FirstPage></pages:FirstPage>
+            </ShellContent>
+        </Tab>
+    </TabBar>
+
+</Shell>
