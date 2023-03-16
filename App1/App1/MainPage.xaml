@@ -4,14 +4,22 @@
        xmlns:pages="clr-namespace:App1.Pages"
              x:Class="App1.MainPage">
     <TabBar>
-        <Tab Title="Cats"
-            Icon="cat.png">
+        <Tab Title="FirstPage">
             <ShellContent>
                 <pages:FirstPage></pages:FirstPage>
             </ShellContent>
         </Tab>
-        <Tab Title="Dogs"
-            Icon="dog.png">
+        <Tab Title="SecondPage">
+            <ShellContent>
+                <pages:SecondPage></pages:SecondPage>
+            </ShellContent>
+        </Tab>
+        <Tab Title="ThirdPage">
+            <ShellContent>
+                <pages:FirstPage></pages:FirstPage>
+            </ShellContent>
+        </Tab>
+        <Tab Title="FourthPage">
             <ShellContent>
                 <pages:FirstPage></pages:FirstPage>
             </ShellContent>
