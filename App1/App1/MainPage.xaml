@@ -5,11 +5,12 @@
              x:Class="App1.MainPage">
     <TabBar>
         <Tab Title="FirstPage"
-             Icon="images/Xamarin.png">
+             Icon="drawable/Xamarin.jpg">
             <ShellContent>
                 <pages:FirstPage></pages:FirstPage>
             </ShellContent>
         </Tab>
+        
         <Tab Title="SecondPage" Icon="images/Xamarin.png">
             <ShellContent>
                 <pages:SecondPage></pages:SecondPage>
