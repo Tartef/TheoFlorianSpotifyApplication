@@ -22,13 +22,13 @@ namespace App1.Pages
             var ListeCases = new List<BoxView> { FirstCase, SecondCase, ThirdCase, FourthCase, FifthCase, SixthCase, SeventhCase, EighthCase, NinthCase, TenthCase, EleventhCase, TwelfthCase, ThirteenthCase, FourteenthCase, FifteenthCase, SixteenthCase, SeventeenthCase, EightteenthCase, NineteenthCase, TwentythCase };
             for (int i = 0; i < ListeCases.Count; i++)
             {
-                if (ListeCases[i].Color == Color.White)
+                if (ListeCases[i].Color == Color.Blue)
                 {
                     ListeCases[i].Color = Color.Black;
                 }
                 else
                 {
-                    ListeCases[i].Color = Color.White;
+                    ListeCases[i].Color = Color.Blue;
                 }
             }
         }

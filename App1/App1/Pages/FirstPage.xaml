@@ -8,8 +8,8 @@
 
 
 
-        <Label x:Name="Spotifyetout"
-               Text="Spotifyetout"
+        <Label x:Name="BipBoup"
+               Text="BipBoup"
                FontSize="Large" />
 
         <Label Text="Vive la Musique!"
@@ -20,7 +20,7 @@
         <StackLayout Margin="20"
                  Orientation="Horizontal"
                  HorizontalOptions="Center">
-            <Image Source="SpotifyLogo" WidthRequest="150" HeightRequest="150" />
+            <Image Source= "Xamarin.jpg" WidthRequest="150" HeightRequest="150"/>
             <Image Source="Xamarin" WidthRequest="150" HeightRequest="150" />
         </StackLayout>
 
@@ -48,7 +48,7 @@
             <BoxView x:Name="FirstCase"
                      Grid.Column="0"
                      Grid.Row="0"
-                     Color="White" />
+                     Color="Blue" />
 
             <BoxView x:Name="SecondCase"
                      Grid.Column="1"
@@ -58,7 +58,7 @@
             <BoxView x:Name="ThirdCase"
                      Grid.Column="2"
                      Grid.Row="0"
-                     Color="White" />
+                     Color="Blue" />
 
             <BoxView x:Name="FourthCase"
                      Grid.Column="3"
@@ -68,7 +68,7 @@
             <BoxView x:Name="FifthCase"
                      Grid.Column="4"
                      Grid.Row="0"
-                     Color="White" />
+                     Color="Blue" />
 
 
 
@@ -82,7 +82,7 @@
             <BoxView x:Name="SeventhCase"
                      Grid.Column="1"
                      Grid.Row="1"
-                     Color="white" />
+                     Color="Blue" />
 
             <BoxView x:Name="EighthCase"
                      Grid.Column="2"
@@ -92,7 +92,7 @@
             <BoxView x:Name="NinthCase"
                      Grid.Column="3"
                      Grid.Row="1"
-                     Color="white" />
+                     Color="Blue" />
 
             <BoxView x:Name="TenthCase"
                      Grid.Column="4"
@@ -108,7 +108,7 @@
             <BoxView x:Name="EleventhCase"
                      Grid.Column="0"
                      Grid.Row="2"
-                     Color="White" />
+                     Color="Blue" />
 
             <BoxView x:Name="TwelfthCase"
                      Grid.Column="1"
@@ -118,7 +118,7 @@
             <BoxView x:Name="ThirteenthCase"
                      Grid.Column="2"
                      Grid.Row="2"
-                     Color="White" />
+                     Color="Blue" />
 
             <BoxView x:Name="FourteenthCase"
                      Grid.Column="3"
@@ -128,7 +128,7 @@
             <BoxView x:Name="FifteenthCase"
                      Grid.Column="4"
                      Grid.Row="2"
-                     Color="White" />
+                     Color="Blue" />
 
 
 
@@ -143,7 +143,7 @@
             <BoxView x:Name="SeventeenthCase"
                      Grid.Column="1"
                      Grid.Row="3"
-                     Color="white" />
+                     Color="Blue" />
 
             <BoxView x:Name="EightteenthCase"
                      Grid.Column="2"
@@ -153,7 +153,7 @@
             <BoxView x:Name="NineteenthCase"
                      Grid.Column="3"
                      Grid.Row="3"
-                     Color="white" />
+                     Color="Blue" />
 
             <BoxView x:Name="TwentythCase"
                      Grid.Column="4"
