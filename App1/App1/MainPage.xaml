@@ -4,24 +4,25 @@
        xmlns:pages="clr-namespace:App1.Pages"
              x:Class="App1.MainPage">
     <TabBar>
-        <Tab Title="FirstPage">
+        <Tab Title="FirstPage"
+             Icon="images/Xamarin.png">
             <ShellContent>
                 <pages:FirstPage></pages:FirstPage>
             </ShellContent>
         </Tab>
-        <Tab Title="SecondPage">
+        <Tab Title="SecondPage" Icon="images/Xamarin.png">
             <ShellContent>
                 <pages:SecondPage></pages:SecondPage>
             </ShellContent>
         </Tab>
         <Tab Title="ThirdPage">
             <ShellContent>
-                <pages:FirstPage></pages:FirstPage>
+                <pages:ThirdPage></pages:ThirdPage>
             </ShellContent>
         </Tab>
         <Tab Title="FourthPage">
             <ShellContent>
-                <pages:FirstPage></pages:FirstPage>
+                <pages:FourthPage></pages:FourthPage>
             </ShellContent>
         </Tab>
     </TabBar>
