@@ -20,8 +20,8 @@
         <StackLayout Margin="20"
                  Orientation="Horizontal"
                  HorizontalOptions="Center">
-            <Image Source= "Xamarin.jpg" WidthRequest="150" HeightRequest="150"/>
-            <Image Source="Xamarin" WidthRequest="150" HeightRequest="150" />
+            <Image Source="SpotifyLogo" WidthRequest="150" HeightRequest="150" />
+            <Image Source="XamarinLogo" WidthRequest="150" HeightRequest="150" />
         </StackLayout>
 
 

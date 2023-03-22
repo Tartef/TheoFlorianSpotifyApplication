@@ -2,16 +2,17 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:pages="clr-namespace:App1.Pages"
-             x:Class="App1.MainPage">
+             x:Class="App1.MainPage"
+             BackgroundColor="{AppThemeBinding Light=Green, Dark=Blue}">
     <TabBar>
         <Tab Title="FirstPage"
-             Icon="drawable/Xamarin.jpg">
+             Icon="SpotifyLogo.png">
             <ShellContent>
                 <pages:FirstPage></pages:FirstPage>
             </ShellContent>
         </Tab>
         
-        <Tab Title="SecondPage" Icon="images/Xamarin.png">
+        <Tab Title="SecondPage" Icon="Spotify_icon.png">
             <ShellContent>
                 <pages:SecondPage></pages:SecondPage>
             </ShellContent>
