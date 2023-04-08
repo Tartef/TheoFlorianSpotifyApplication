@@ -6,8 +6,32 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Ceci est notre 3ème page!"
-                   VerticalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="Name"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Image x:Name="Image"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="Artist"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"/> 
+            <Label x:Name="ReleaseDate"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"/>
+            <ListView x:Name="TracksList"
+                      VerticalOptions="Center"
+                      HorizontalOptions="CenterAndExpand">
+                     <ListView.ItemTemplate>
+                         <DataTemplate>
+                             <ViewCell>
+                                 <Label Text="{Binding Name}"/>
+                             </ViewCell>
+                         </DataTemplate>
+                     </ListView.ItemTemplate>
+            </ListView>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
