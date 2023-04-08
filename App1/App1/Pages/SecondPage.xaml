@@ -5,9 +5,19 @@
              x:Class="App1.Pages.SecondPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ceci est ma seconde page"
-                   VerticalOptions="CenterAndExpand"
+            <Label x:Name="Name"
+                   VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="Followers"
+                     VerticalOptions="Center"
+                     HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="Genres"
+                        VerticalOptions="Center"
+                        HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="Popularity"
+                        VerticalOptions="Center"
+                        HorizontalOptions="CenterAndExpand" />
+            <Image x:Name="Image"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
