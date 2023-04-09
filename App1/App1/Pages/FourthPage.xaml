@@ -5,9 +5,12 @@
              x:Class="App1.Pages.FourthPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ceci est notre 4eme page!"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
+            <!-- <Label Text="Ceci est notre 4eme page!" -->
+            <!--        VerticalOptions="CenterAndExpand" -->
+            <!--        HorizontalOptions="CenterAndExpand" /> -->
+            <WebView x:Name="WebView"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
