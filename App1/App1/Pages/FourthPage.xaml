@@ -9,8 +9,24 @@
             <!--        VerticalOptions="CenterAndExpand" -->
             <!--        HorizontalOptions="CenterAndExpand" /> -->
             <WebView x:Name="WebView"
-                     VerticalOptions="FillAndExpand"
-                     HorizontalOptions="FillAndExpand"/>
+                     Source="{Binding HtmlSource}"
+                     WidthRequest="1000" HeightRequest="500"/>
+            <!-- VerticalOptions="CenterAndExpand" -->
+            <!-- HorizontalOptions="FillAndExpand" -->
+            <ListView x:Name="TracksList"
+                      ItemsSource="{Binding Playlist.Tracks.Items}"
+                      ItemTapped="OnTrackTapped"
+                      VerticalOptions="CenterAndExpand"
+                      SeparatorColor="Black"
+                      HorizontalOptions="CenterAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Name}"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
