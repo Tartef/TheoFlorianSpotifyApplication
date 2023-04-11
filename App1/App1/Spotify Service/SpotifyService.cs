@@ -10,7 +10,11 @@ namespace App1.Spotify_Service
 
         static SpotifyService()
         {
-            var spotify = new SpotifyClient("METTRE SON TOKEN ICI");
+            var config = SpotifyClientConfig.CreateDefault();
+            var request =
+                new ClientCredentialsRequest("3fce54660a8f43b1a1dbb8be575f5ed1", "03b44679af924110892c3905531fda71");
+            var response = new OAuthClient(config).RequestToken(request).Result;
+            var spotify = new SpotifyClient(config.WithToken(response.AccessToken));
             Spotify = spotify;
         }
 

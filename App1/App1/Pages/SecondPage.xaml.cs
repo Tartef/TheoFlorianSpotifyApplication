@@ -25,7 +25,7 @@ namespace App1.Pages
             {
                 Genres.Text += genre + ", ";
             }
-            Popularity.Text = "Rang: " + artist.Popularity;
+            Popularity.Text = "Rang de popularité: " + artist.Popularity;
         }
     }
 }

@@ -5,16 +5,17 @@
              x:Class="App1.Pages.ThirdPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ceci est notre 3ème page!"
-                   VerticalOptions="Center"
-                   HorizontalOptions="CenterAndExpand" />
             <Label x:Name="Name"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
                    VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand"/>
             <Image x:Name="Image"
                    VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand"/>
             <Label x:Name="Artist"
+                   FontAttributes="Bold"
                    VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand"/> 
             <Label x:Name="ReleaseDate"
@@ -22,6 +23,7 @@
                    HorizontalOptions="CenterAndExpand"/>
             <ListView x:Name="TracksList"
                       VerticalOptions="Center"
+                      SeparatorColor="Black"
                       HorizontalOptions="CenterAndExpand">
                      <ListView.ItemTemplate>
                          <DataTemplate>
