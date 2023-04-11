@@ -6,22 +6,27 @@
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="Name"
+                   Text="{Binding Name}"
                    FontAttributes="Bold"
                    FontSize="24"
                    TextColor="Black"
                    VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand" />
             <Label x:Name="Followers"
-                     VerticalOptions="Center"
-                     HorizontalOptions="CenterAndExpand" />
+                   Text="{Binding Followers}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand" />
             <Label x:Name="Genres"
-                        VerticalOptions="Center"
-                        HorizontalOptions="CenterAndExpand" />
+                   Text="{Binding Genres}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand" />
             <Label x:Name="Popularity"
-                        FontAttributes="Italic"
-                        VerticalOptions="Center"
-                        HorizontalOptions="CenterAndExpand" />
-            <Image x:Name="Image"/>
+                   Text="{Binding Popularity}"
+                   FontAttributes="Italic"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand" />
+            <Image x:Name="Image"
+                   Source="{Binding ImageSource}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
