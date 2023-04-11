@@ -48,27 +48,27 @@
             <BoxView x:Name="FirstCase"
                      Grid.Column="0"
                      Grid.Row="0"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}"/>
 
             <BoxView x:Name="SecondCase"
                      Grid.Column="1"
                      Grid.Row="0"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="ThirdCase"
                      Grid.Column="2"
                      Grid.Row="0"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="FourthCase"
                      Grid.Column="3"
                      Grid.Row="0"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="FifthCase"
                      Grid.Column="4"
                      Grid.Row="0"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
 
 
@@ -77,27 +77,27 @@
             <BoxView x:Name="SixthCase"
                      Grid.Column="0"
                      Grid.Row="1"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="SeventhCase"
                      Grid.Column="1"
                      Grid.Row="1"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="EighthCase"
                      Grid.Column="2"
                      Grid.Row="1"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="NinthCase"
                      Grid.Column="3"
                      Grid.Row="1"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="TenthCase"
                      Grid.Column="4"
                      Grid.Row="1"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
 
 
@@ -108,27 +108,27 @@
             <BoxView x:Name="EleventhCase"
                      Grid.Column="0"
                      Grid.Row="2"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="TwelfthCase"
                      Grid.Column="1"
                      Grid.Row="2"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="ThirteenthCase"
                      Grid.Column="2"
                      Grid.Row="2"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="FourteenthCase"
                      Grid.Column="3"
                      Grid.Row="2"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="FifteenthCase"
                      Grid.Column="4"
                      Grid.Row="2"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
 
 
@@ -138,27 +138,27 @@
             <BoxView x:Name="SixteenthCase"
                      Grid.Column="0"
                      Grid.Row="3"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="SeventeenthCase"
                      Grid.Column="1"
                      Grid.Row="3"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="EightteenthCase"
                      Grid.Column="2"
                      Grid.Row="3"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
             <BoxView x:Name="NineteenthCase"
                      Grid.Column="3"
                      Grid.Row="3"
-                     Color="Blue" />
+                     Color="{Binding OddCaseColor}" />
 
             <BoxView x:Name="TwentythCase"
                      Grid.Column="4"
                      Grid.Row="3"
-                     Color="black" />
+                     Color="{Binding EvenCaseColor}" />
 
 
 
