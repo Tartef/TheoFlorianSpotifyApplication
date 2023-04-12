@@ -14,9 +14,13 @@
             <!--        HorizontalOptions="CenterAndExpand" /> -->
             <WebView x:Name="WebView"
                      Source="{Binding HtmlSource}"
-                     WidthRequest="1000" HeightRequest="500"/>
+                     WidthRequest="1000" HeightRequest="300"/>
             <!-- VerticalOptions="CenterAndExpand" -->
             <!-- HorizontalOptions="FillAndExpand" -->
+            <Label x:Name="PlaylistName"
+                   FontAttributes="Bold"
+                   FontSize="24"
+                   HorizontalOptions="Center"/>
             <ListView x:Name="TracksList"
                       ItemsSource="{Binding Playlist.Tracks.Items}"
                       ItemTapped="OnTrackTapped"

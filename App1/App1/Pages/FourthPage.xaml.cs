@@ -22,8 +22,9 @@ namespace App1.Pages
             //BindingContext = _viewModel;
             //TracksList.ItemsSource = _viewModel.Playlist.Tracks.Items;
             WebView.Source = SpotifyService.EmbeddedPreview("4xxLwHxyzJkg6Z002YRabT");
-            var playlist = SpotifyService.Spotify.Playlists.Get("37i9dQZF1DZ06evO15Ttp6").Result.Tracks.Items;
-            TracksList.ItemsSource = playlist.Select(t => t.Track);
+            var playlist = SpotifyService.Spotify.Playlists.Get("37i9dQZF1DZ06evO15Ttp6").Result;
+            TracksList.ItemsSource = playlist.Tracks.Items.Select(t => t.Track);
+            PlaylistName.Text = playlist.Name;
         }
         
         protected override async void OnAppearing()

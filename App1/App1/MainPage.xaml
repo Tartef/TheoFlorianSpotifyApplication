@@ -5,24 +5,23 @@
              x:Class="App1.MainPage"
              BackgroundColor="{AppThemeBinding Light=Green, Dark=Blue}">
     <TabBar>
-        <Tab Title="FirstPage"
-             Icon="SpotifyLogo.png">
+        <Tab Title="Accueil" Icon="home.png">
             <ShellContent>
                 <pages:FirstPage></pages:FirstPage>
             </ShellContent>
         </Tab>
         
-        <Tab Title="SecondPage" Icon="Spotify_icon.png">
+        <Tab Title="Artiste" Icon="artist.png">
             <ShellContent>
                 <pages:SecondPage></pages:SecondPage>
             </ShellContent>
         </Tab>
-        <Tab Title="ThirdPage">
+        <Tab Title="Album" Icon="album.png">
             <ShellContent>
                 <pages:ThirdPage></pages:ThirdPage>
             </ShellContent>
         </Tab>
-        <Tab Title="FourthPage">
+        <Tab Title="Features 👍" Icon="extraFeatures.png">
             <ShellContent>
                 <pages:FourthPage></pages:FourthPage>
             </ShellContent>
