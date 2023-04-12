@@ -47,5 +47,12 @@ namespace App1.Pages
             // Désélectionner l'élément sélectionné
             ((ListView)sender).SelectedItem = null;
         }
+        
+        private void HandleSearch(object sender, EventArgs e)
+        {
+            var tracks = SpotifyService.Spotify.Search.Item(new SearchRequest(SearchRequest.Types.Track, Entry.Text)).Result;
+            var trackId = tracks.Tracks.Items[0].Id;
+            WebView.Source = SpotifyService.EmbeddedPreview(trackId);
+        }
     }
 }

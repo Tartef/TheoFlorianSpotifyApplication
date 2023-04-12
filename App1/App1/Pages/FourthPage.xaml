@@ -5,6 +5,10 @@
              x:Class="App1.Pages.FourthPage">
     <ContentPage.Content>
         <StackLayout>
+            <Entry x:Name="Entry"
+                   Placeholder="Rechercher une musique"
+                   Completed="HandleSearch"  
+                   HorizontalTextAlignment="Center"/>
             <!-- <Label Text="Ceci est notre 4eme page!" -->
             <!--        VerticalOptions="CenterAndExpand" -->
             <!--        HorizontalOptions="CenterAndExpand" /> -->
